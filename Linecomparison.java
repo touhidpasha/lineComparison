@@ -7,6 +7,12 @@ public static void main(String[] args) {
     lenght2=Math.sqrt((l2p2x-l2p1x)^2+(l2p2y-l2p2y)^2);
 
     System.out.println(" line 1 length is "+length1+" line 2 length is "+lenght2);
+
+    if(length1==lenght2)
+     System.out.println("both lines are equal");
+    else
+        System.out.println("lines are not equal");
+        
     
     
 }
