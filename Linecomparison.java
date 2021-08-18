@@ -15,5 +15,13 @@ public static void main(String[] args) {
         
     
     
+    if(length1>lenght2)
+    System.out.println("l1 is greaterthan l2");
+    else if(length1<lenght2)
+    System.out.println("l2 is greaterthan l1");
+    else 
+    System.out.println("both are aqual");
+    
 }
+
 }
